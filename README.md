@@ -16,7 +16,7 @@ Some serious thought went into reducing the search effort as much as possible:
 
 ---
 
-##Future Work
+## Future Work
 
 1. Speed up through effective memoization
 1. Speed up through parallelization. I tried to use `numba` to parallelize execution but I'm not sure how I should decorate the functions to allow support for bigints
