@@ -7,6 +7,7 @@ from sympy.utilities.iterables import multiset_permutations
 from math import log, factorial as f
 
 pm = lambda n : reduce( int.__mul__ , map( int , list( str(n) ) ) )
+sift = lambda seed: list( i for i in candidates(seed) if lp7(i) )
 
 def streak(n):
     if n > 9:
@@ -178,7 +179,6 @@ def sequence_summary(two,three,seven):
         score[seq] = complexity(seq)
     return score
 
-sift = lambda seed: list( i for i in candidates(seed) if lp7(i) )
 
 def prime_factors(n):
     i = 2
