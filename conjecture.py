@@ -10,12 +10,15 @@ pm = lambda n : reduce( int.__mul__ , map( int , list( str(n) ) ) )
 sift = lambda seed: list( i for i in candidates(seed) if lp7(i) )
 
 def streak(n):
+    """Returns the list of numbers corresponding to the multiplicative persistence of the input number `n`.
+    Doesn't add numbers below 10 to the list."""
     if n > 9:
         return [ n ] + streak( pm(n) )
     else:
         return []
 
 def fast_streak(n):
+    "Faster version of `streak` as it terminates the moment a zero is found in the latest result"
     if '0' not in str(n) and n > 9:
         return [ n ] + streak( pm(n) )
     else:
@@ -64,7 +67,8 @@ def work(seed):
         if length > 7:
             print( '[{}] {} : {}'.format( seed, n, length ) )
 
-def largest_prime_single_digit(n):
+def lp7f(n):
+    """True/false if the largest prime is 7. Requires fewer loops than lp7"""
     primes = [2,3,5,7,None]
     i = primes.pop(0)
     while len(primes):
@@ -79,7 +83,8 @@ def largest_prime_single_digit(n):
             return True
     return False
 
-def lp7(n):      # largest prime is 7
+def lp7(n):
+    """True/false if the largest prime is 7"""
     i = 2
     while i <= 7 and n != 1:
         if n % i:
@@ -89,10 +94,9 @@ def lp7(n):      # largest prime is 7
     return n == 1
 
 def candidates( seed, ones=0 ):
-    # while True:
-        for n in multiset_permutations( str(seed) ):
-            yield int( '1' * ones + ''.join(n) )
-        # seed += '1'
+    """Returns all permutations of the digits of `seed`, in addition to any `1` digits that can be specified via optional `ones` argument"""
+    for n in multiset_permutations( str(seed) ):
+        yield int( '1' * ones + ''.join(n) )
 
 def onesies( TWO, THREE, SEVEN, limit=10 ):
     ones = 0
