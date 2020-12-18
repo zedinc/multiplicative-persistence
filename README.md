@@ -1,6 +1,6 @@
 # Multiplicative Persistence
 
-Exporatory work inspired by [Numberphile video][1] on the topic.
+Exploratory work inspired by [Numberphile video][1] on the topic.
 
 ---
 
