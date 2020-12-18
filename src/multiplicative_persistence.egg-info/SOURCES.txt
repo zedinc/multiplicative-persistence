@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/multiplicative_persistence.egg-info/PKG-INFO
+src/multiplicative_persistence.egg-info/SOURCES.txt
+src/multiplicative_persistence.egg-info/dependency_links.txt
+src/multiplicative_persistence.egg-info/top_level.txt

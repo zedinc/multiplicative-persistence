@@ -1,13 +1,17 @@
 from functools import reduce
 from itertools import product
+from math import factorial as f
+from math import log
 # from numba import jit, vectorize, cuda
 from time import time
+
 import numpy as np
+from colors import green
 from sympy.utilities.iterables import multiset_permutations
-from math import log, factorial as f
 
 pm = lambda n : reduce( int.__mul__ , map( int , list( str(n) ) ) )
 sift = lambda seed: list( i for i in candidates(seed) if lp7(i) )
+N237 = lambda TWO, THREE, SEVEN: 2 ** TWO * 3 ** THREE * 7 ** SEVEN
 
 def streak(n):
     """Returns the list of numbers corresponding to the multiplicative persistence of the input number `n`.
@@ -31,24 +35,9 @@ def search( TWO, THREE, SEVEN ):
         count += 1
         print( '\r({}, {}, {}) - {:.2%}'.format( two, three, seven, count/size ), end = '' )
         n = 2**two * 3**three * 7**seven
+        # if '0' not in str(n) :
         if '0' not in str(n) and len( fast_streak(n) ) > 7:
             print( '\r({}, {}, {}) = {}'.format( two, three, seven , n ) )
-
-
-# @vectorize(['int_(int_)'],target='cuda')
-# def pmv(n):
-    # j = 1
-    # for i in list(str(n)):
-        # j *= int(i)
-    # return j
-
-# @vectorize(['int_(int_)'],target='cuda')
-# def streakv(n,length):
-    # i = 0
-    # while n > 9:
-        # i += 1
-        # n = pmv(n)
-    # return i
 
 def explorer(seed):
     queue = [ str(seed) ]
@@ -67,6 +56,64 @@ def work(seed):
         if length > 7:
             print( '[{}] {} : {}'.format( seed, n, length ) )
 
+def lp7ff(n):
+    """True/false if the largest prime is 7. Requires fewer loops than lp7"""
+    i = 2
+    while True:
+        if n % i:
+            # print('In if  : {i}, {n}'.format(i=i,n=n))
+            if   i == 2: i = 3
+            elif i == 3: i = 5
+            elif i == 5: i = 7
+            elif i == 7: return False
+        else:
+            # print('In else: {i}, {n}'.format(i=i,n=n))
+            n //= i
+        if n == 1:
+            # print('In n==1: {i}, {n}'.format(i=i,n=n))
+            return True
+    # return False
+
+def lp237(n):
+    """True/false if the largest prime is at most 7. Requires fewer loops than lp7, bit-shifts to divide by 2 as much as possible"""
+    
+    # Get rid of all divide by 2's in one bit-shift line
+    n >>= bin(( n ^ (n-1) ) >> 1).count('1')
+    if n < 11: return True
+    
+    i = 3  # 'Skip' testing 3 if it isn't divisible
+    while n >= 11:
+        if n % i:
+            if   i == 3: i = 7
+            elif i == 7: return False
+        else:
+            n //= i
+    return True
+    # For this use case, 5 will never be a prime factor (n never ends in a 0 or 5)    
+    # while True:
+    #     if n % i:
+    #         if   i == 3: i = 7
+    #         elif i == 7: return False
+    #     else:
+    #         if n < 11: return True
+    #         n //= i
+
+def lp27(n):
+    """True/false if the largest prime is 7. Requires fewer loops than lp7, bit-shifts to divide by 2 as much as possible. Asserts that number input is not divisible by 3"""
+    
+    # assert n % 3, 'Number should not be divisible by 3'
+    
+    # Get rid of all divide by 2's in one bit-shift line
+    n >>= bin(( n ^ (n-1) ) >> 1).count('1')
+    if n < 11: return True
+    
+    while n >= 11:
+        if n % 7:
+            return False
+        else:
+            n //= 7
+    return True
+    
 def lp7f(n):
     """True/false if the largest prime is 7. Requires fewer loops than lp7"""
     primes = [2,3,5,7,None]
@@ -95,28 +142,36 @@ def lp7(n):
 
 def candidates( seed, ones=0 ):
     """Returns all permutations of the digits of `seed`, in addition to any `1` digits that can be specified via optional `ones` argument"""
-    for n in multiset_permutations( str(seed) ):
-        yield int( '1' * ones + ''.join(n) )
+    for n in multiset_permutations( '1' * ones + str(seed) ):
+        yield int( ''.join(n) )
 
-def onesies( TWO, THREE, SEVEN, limit=10 ):
-    ones = 0
+def onesies( TWO, THREE, SEVEN, start=0, limit=10 ):
+    ones = start
     while ones <= limit:
         for seed in building_sets( TWO, THREE, SEVEN ):
-            count = 0
+            # what is in the loop represents one computational unit
             ext = '1' * ones + seed
+            
             if len(ext) <= 80:
                 print( 'Exploring {}'.format( ext ) )
             else:
                 print( 'Exploring {}'.format( ext[:77] + '...' ) )
+            
+            count = 0
+            cmplx = complexity(ext)
+            divisible_by_three = not ( sum([int(i) for i in ext]) % 3 )
+            prospective = lp237 if divisible_by_three else lp27
+
             for seq in candidates(seed,ones):
                 count += 1
-                length = len(str(seq))
-                if length <= 80:
-                    print( '\r  {} - {:.2%}'.format( str(seq), count/complexity(str(seq)) ), end = '' )
-                else:
-                    print( '\r  {} - {:.2%}'.format( str(seq)[:77] + '...', count/complexity(str(seq)) ), end = '' )
-                if lp7( int(seq) ):
-                    print( '\r  {}          '.format(seq) )
+                print( '\r  {} - {:.2%}'.format( str(seq), count/cmplx ), end = '' )
+                # length = len(str(seq))
+                # if length <= 80:
+                #     print( '\r  {} - {:.2%}'.format( str(seq), count/cmplx ), end = '' )
+                # else:
+                #     print( '\r  {} - {:.2%}'.format( str(seq)[:77] + '...', count/cmplx ), end = '' )
+                if prospective( int(seq) ):
+                    print( green( '\r  {}          '.format(seq) ) )
             print()
         ones += 1
 
@@ -127,8 +182,9 @@ def unit(seed):
         if lp7(i): print( '\r' + i )
 
 def building_sets(TWO,THREE,SEVEN):
+    """Constructs all digit sets for 2**`TWO` * 3**`THREE` * 7**`SEVEN` (without including `1`s)"""
     n = 2 ** TWO * 3 ** THREE * 7 ** SEVEN
-    assert lp7(n), 'Largest prime factor must be 7'
+    assert lp7f(n), 'Largest prime factor must be 7'
     
     options2 = []
     for two, four, eight in product( range( 1+int(TWO/1) ), range( 1+int(TWO/2) ), range( 1+int(TWO/3) ) ):
@@ -171,9 +227,14 @@ def complexity(seq):
         complexity //= f( count[i] )
     return complexity
 
-def sequence_summary(two,three,seven):
+def sequence_summary(TWO,THREE,SEVEN):
+    """Returns a dictionary summarizing the different digit sets that satisfy the prime factorization of 2**`TWO` * 3**`THREE` * 7**`SEVEN`.
+    :param two: number of times 2 repeats as a prime factor
+    :param three: number of times 3 repeats as a prime factor
+    :param seven: number of times 7 repeats as a prime factor
+    """
     score = {}
-    for seq in building_sets(two,three,seven):
+    for seq in building_sets(TWO,THREE,SEVEN):
         # uniq = [ int(i) for i in set(seq) ]
         # count = { i : seq.count(str(i)) for i in uniq }
         # combinations = f(len(seq))
@@ -183,8 +244,8 @@ def sequence_summary(two,three,seven):
         score[seq] = complexity(seq)
     return score
 
-
 def prime_factors(n):
+    """Returns list of prime factors for `n`"""
     i = 2
     factors = []
     while i * i <= n:
@@ -197,15 +258,16 @@ def prime_factors(n):
         factors.append(n)
     return factors
 
-def prime_powers(n):
-    assert lp7(n), "Can't use prime_powers() if largest prime > 7"
+def prime_powers237(n):
+    """Returns `TWO`, `THREE`, `SEVEN` representation of `n` (2**`TWO` * 3**`THREE` * 7**`SEVEN`)"""
+    assert not set(prime_factors(n)).difference({2,3,7}), "`prime_powers237()` only works if prime factors are limited to 2,3 and 7"
     factors = prime_factors(n)
     return factors.count(2), factors.count(3), factors.count(7)
 
-def find_prospects( n, pad='', level=0 ):
-    assert lp7(n), "Can't use find_prospects() if largest prime > 7"
+def find_prospectives( n, pad='', level=0 ):
+    assert lp7(n), "Can't use find_prospectives() if largest prime > 7"
     print( pad + str(n) )
-    TWO, THREE, SEVEN = prime_powers(n)
+    TWO, THREE, SEVEN = prime_powers237(n)
     possibilities = sequence_summary( TWO, THREE, SEVEN )
     for _, score in sorted( possibilities.items(), key = lambda x: x[1] ):
         print('\r' + pad + '  {}'.format(_))
@@ -213,10 +275,10 @@ def find_prospects( n, pad='', level=0 ):
             print( '\r' + pad + '* {}'.format(seq), end='')
             i = int(seq)
             if lp7(i) and i != n:
-                two, three, seven = prime_powers(i)
+                two, three, seven = prime_powers237(i)
                 print( '\r' + pad + '  {} = 2**{} * 3**{} * 7**{}'.format( seq, two, three, seven ) )
                 if level > 0:
-                    find_prospects( i, pad+'  ' )
+                    find_prospectives( i, pad+'  ' )
 
 if __name__ == '__main__':
     # for n in explorer():
@@ -262,5 +324,8 @@ if __name__ == '__main__':
                 # if lp7( int(seq) ): print( '\r{}'.format(seq) )
             # print()
         # ones += 1
-    
-    onesies( 4, 20, 5, 2 )
+
+    # search( 40, 40, 40 )
+    # exit(0)
+    # onesies( 4, 20, 5, 5 )
+    onesies( 8, 3, 2, 5 )
