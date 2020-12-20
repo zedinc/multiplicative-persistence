@@ -1,0 +1,5077 @@
+// Multiplicative Persistence
+strict digraph {
+	graph [overlap=false ratio=auto splines=true]
+	node [fontname=Arial fontsize=10 shape=box style=filled]
+	262144 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">262144</TD>
+      </TR>
+      <TR>
+        <TD>18</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	384 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">384</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	262144 -> 384
+	96 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">96</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	384 -> 96
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	96 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	134217728 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">134217728</TD>
+      </TR>
+      <TR>
+        <TD>27</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#FCF3CF"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	18816 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">18816</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	134217728 -> 18816
+	384 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">384</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	18816 -> 384
+	96 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">96</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	384 -> 96
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	96 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	27648 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">27648</TD>
+      </TR>
+      <TR>
+        <TD>10</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#FCF3CF"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	2688 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2688</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	27648 -> 2688
+	768 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">768</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	2688 -> 768
+	336 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">336</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	768 -> 336
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	336 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	1769472 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">1769472</TD>
+      </TR>
+      <TR>
+        <TD>16</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	21168 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">21168</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	1769472 -> 21168
+	96 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">96</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	21168 -> 96
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	96 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	231928233984 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">231928233984</TD>
+      </TR>
+      <TR>
+        <TD>33</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F6DDCC"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	4478976 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">4478976</TD>
+      </TR>
+      <TR>
+        <TD>11</TD>
+        <TD>7</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#FAE5D3"]
+	231928233984 -> 4478976
+	338688 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">338688</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#FDEBD0"]
+	4478976 -> 338688
+	27648 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">27648</TD>
+      </TR>
+      <TR>
+        <TD>10</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#FCF3CF"]
+	338688 -> 27648
+	2688 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2688</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	27648 -> 2688
+	768 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">768</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	2688 -> 768
+	336 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">336</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	768 -> 336
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	336 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	331776 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">331776</TD>
+      </TR>
+      <TR>
+        <TD>12</TD>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	2646 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2646</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	331776 -> 2646
+	288 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">288</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	2646 -> 288
+	128 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">128</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	288 -> 128
+	16 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">16</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	128 -> 16
+	16 -> "0_9"
+	169869312 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">169869312</TD>
+      </TR>
+      <TR>
+        <TD>21</TD>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	139968 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">139968</TD>
+      </TR>
+      <TR>
+        <TD>6</TD>
+        <TD>7</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	169869312 -> 139968
+	11664 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">11664</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>6</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	139968 -> 11664
+	144 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">144</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	11664 -> 144
+	16 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">16</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	144 -> 16
+	16 -> "0_9"
+	2239488 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2239488</TD>
+      </TR>
+      <TR>
+        <TD>10</TD>
+        <TD>7</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#FDEBD0"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	27648 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">27648</TD>
+      </TR>
+      <TR>
+        <TD>10</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#FCF3CF"]
+	2239488 -> 27648
+	2688 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2688</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	27648 -> 2688
+	768 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">768</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	2688 -> 768
+	336 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">336</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	768 -> 336
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	336 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	4478976 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">4478976</TD>
+      </TR>
+      <TR>
+        <TD>11</TD>
+        <TD>7</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#FAE5D3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	338688 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">338688</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#FDEBD0"]
+	4478976 -> 338688
+	27648 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">27648</TD>
+      </TR>
+      <TR>
+        <TD>10</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#FCF3CF"]
+	338688 -> 27648
+	2688 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2688</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	27648 -> 2688
+	768 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">768</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	2688 -> 768
+	336 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">336</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	768 -> 336
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	336 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	71663616 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">71663616</TD>
+      </TR>
+      <TR>
+        <TD>15</TD>
+        <TD>7</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	27216 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">27216</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>5</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	71663616 -> 27216
+	168 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">168</TD>
+      </TR>
+      <TR>
+        <TD>3</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	27216 -> 168
+	48 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">48</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	168 -> 48
+	32 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">32</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	48 -> 32
+	32 -> "0_9"
+	26244 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">26244</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>8</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	384 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">384</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	26244 -> 384
+	96 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">96</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	384 -> 96
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	96 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	3188646 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">3188646</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>13</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#FDEBD0"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	27648 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">27648</TD>
+      </TR>
+      <TR>
+        <TD>10</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#FCF3CF"]
+	3188646 -> 27648
+	2688 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2688</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	27648 -> 2688
+	768 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">768</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	2688 -> 768
+	336 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">336</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	768 -> 336
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	336 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	6499837226778624 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">6499837226778624</TD>
+      </TR>
+      <TR>
+        <TD>24</TD>
+        <TD>18</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#FDEBD0"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	147483721728 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">147483721728</TD>
+      </TR>
+      <TR>
+        <TD>16</TD>
+        <TD>8</TD>
+        <TD>0</TD>
+        <TD>3</TD>
+      </TR>
+    </TABLE>> fillcolor="#FCF3CF"]
+	6499837226778624 -> 147483721728
+	4214784 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">4214784</TD>
+      </TR>
+      <TR>
+        <TD>12</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>3</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	147483721728 -> 4214784
+	7168 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">7168</TD>
+      </TR>
+      <TR>
+        <TD>10</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	4214784 -> 7168
+	336 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">336</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	7168 -> 336
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	336 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	2688 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2688</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	768 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">768</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	2688 -> 768
+	336 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">336</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	768 -> 336
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	336 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	688128 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">688128</TD>
+      </TR>
+      <TR>
+        <TD>15</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	6144 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">6144</TD>
+      </TR>
+      <TR>
+        <TD>11</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	688128 -> 6144
+	96 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">96</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	6144 -> 96
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	96 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	111476736 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">111476736</TD>
+      </TR>
+      <TR>
+        <TD>16</TD>
+        <TD>5</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	21168 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">21168</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	111476736 -> 21168
+	96 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">96</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	21168 -> 96
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	96 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	1783627776 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">1783627776</TD>
+      </TR>
+      <TR>
+        <TD>20</TD>
+        <TD>5</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	4148928 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">4148928</TD>
+      </TR>
+      <TR>
+        <TD>6</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>4</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	1783627776 -> 4148928
+	18432 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">18432</TD>
+      </TR>
+      <TR>
+        <TD>11</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	4148928 -> 18432
+	192 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">192</TD>
+      </TR>
+      <TR>
+        <TD>6</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	18432 -> 192
+	18 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">18</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	192 -> 18
+	18 -> "0_9"
+	2939328 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2939328</TD>
+      </TR>
+      <TR>
+        <TD>6</TD>
+        <TD>8</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	23328 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">23328</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>6</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	2939328 -> 23328
+	288 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">288</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	23328 -> 288
+	128 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">128</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	288 -> 128
+	16 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">16</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	128 -> 16
+	16 -> "0_9"
+	826686 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">826686</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>10</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#FDEBD0"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	27648 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">27648</TD>
+      </TR>
+      <TR>
+        <TD>10</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#FCF3CF"]
+	826686 -> 27648
+	2688 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2688</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	27648 -> 2688
+	768 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">768</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	2688 -> 768
+	336 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">336</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	768 -> 336
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	336 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	6613488 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">6613488</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>10</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#FDEBD0"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	27648 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">27648</TD>
+      </TR>
+      <TR>
+        <TD>10</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#FCF3CF"]
+	6613488 -> 27648
+	2688 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2688</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	27648 -> 2688
+	768 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">768</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	2688 -> 768
+	336 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">336</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	768 -> 336
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	336 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	13226976 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">13226976</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>10</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	27216 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">27216</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>5</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	13226976 -> 27216
+	168 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">168</TD>
+      </TR>
+      <TR>
+        <TD>3</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	27216 -> 168
+	48 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">48</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	168 -> 48
+	32 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">32</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	48 -> 32
+	32 -> "0_9"
+	476171136 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">476171136</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>12</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	21168 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">21168</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	476171136 -> 21168
+	96 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">96</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	21168 -> 96
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	96 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	267846264 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">267846264</TD>
+      </TR>
+      <TR>
+        <TD>3</TD>
+        <TD>14</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	774144 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">774144</TD>
+      </TR>
+      <TR>
+        <TD>12</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	267846264 -> 774144
+	3136 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">3136</TD>
+      </TR>
+      <TR>
+        <TD>6</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	774144 -> 3136
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	3136 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	48814981614 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">48814981614</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>20</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#FCF3CF"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	1769472 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">1769472</TD>
+      </TR>
+      <TR>
+        <TD>16</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	48814981614 -> 1769472
+	21168 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">21168</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	1769472 -> 21168
+	96 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">96</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	21168 -> 96
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	96 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	42176144114496 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">42176144114496</TD>
+      </TR>
+      <TR>
+        <TD>6</TD>
+        <TD>23</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	4644864 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">4644864</TD>
+      </TR>
+      <TR>
+        <TD>13</TD>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	42176144114496 -> 4644864
+	73728 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">73728</TD>
+      </TR>
+      <TR>
+        <TD>13</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	4644864 -> 73728
+	2352 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2352</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	73728 -> 2352
+	60 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">60</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>1</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	2352 -> 60
+	60 -> "0_9"
+	3416267673274176 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">3416267673274176</TD>
+      </TR>
+      <TR>
+        <TD>6</TD>
+        <TD>27</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#FDEBD0"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	1792336896 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">1792336896</TD>
+      </TR>
+      <TR>
+        <TD>10</TD>
+        <TD>6</TD>
+        <TD>0</TD>
+        <TD>4</TD>
+      </TR>
+    </TABLE>> fillcolor="#FCF3CF"]
+	3416267673274176 -> 1792336896
+	2939328 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2939328</TD>
+      </TR>
+      <TR>
+        <TD>6</TD>
+        <TD>8</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	1792336896 -> 2939328
+	23328 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">23328</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>6</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	2939328 -> 23328
+	288 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">288</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	23328 -> 288
+	128 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">128</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	288 -> 128
+	16 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">16</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	128 -> 16
+	16 -> "0_9"
+	18816 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">18816</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	384 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">384</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	18816 -> 384
+	96 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">96</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	384 -> 96
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	96 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	3699376128 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">3699376128</TD>
+      </TR>
+      <TR>
+        <TD>23</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#FCF3CF"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	2939328 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2939328</TD>
+      </TR>
+      <TR>
+        <TD>6</TD>
+        <TD>8</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	3699376128 -> 2939328
+	23328 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">23328</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>6</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	2939328 -> 23328
+	288 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">288</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	23328 -> 288
+	128 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">128</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	288 -> 128
+	16 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">16</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	128 -> 16
+	16 -> "0_9"
+	84672 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">84672</TD>
+      </TR>
+      <TR>
+        <TD>6</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#FCF3CF"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	2688 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2688</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	84672 -> 2688
+	768 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">768</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	2688 -> 768
+	336 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">336</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	768 -> 336
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	336 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	338688 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">338688</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#FDEBD0"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	27648 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">27648</TD>
+      </TR>
+      <TR>
+        <TD>10</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#FCF3CF"]
+	338688 -> 27648
+	2688 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2688</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	27648 -> 2688
+	768 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">768</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	2688 -> 768
+	336 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">336</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	768 -> 336
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	336 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	727326941773824 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">727326941773824</TD>
+      </TR>
+      <TR>
+        <TD>39</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	1194891264 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">1194891264</TD>
+      </TR>
+      <TR>
+        <TD>11</TD>
+        <TD>5</TD>
+        <TD>0</TD>
+        <TD>4</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	727326941773824 -> 1194891264
+	124416 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">124416</TD>
+      </TR>
+      <TR>
+        <TD>9</TD>
+        <TD>5</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	1194891264 -> 124416
+	192 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">192</TD>
+      </TR>
+      <TR>
+        <TD>6</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	124416 -> 192
+	18 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">18</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	192 -> 18
+	18 -> "0_9"
+	47628 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">47628</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>5</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#FCF3CF"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	2688 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2688</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	47628 -> 2688
+	768 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">768</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	2688 -> 768
+	336 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">336</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	768 -> 336
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	336 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	149824733184 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">149824733184</TD>
+      </TR>
+      <TR>
+        <TD>22</TD>
+        <TD>6</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	4644864 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">4644864</TD>
+      </TR>
+      <TR>
+        <TD>13</TD>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	149824733184 -> 4644864
+	73728 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">73728</TD>
+      </TR>
+      <TR>
+        <TD>13</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	4644864 -> 73728
+	2352 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2352</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	73728 -> 2352
+	60 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">60</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>1</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	2352 -> 60
+	60 -> "0_9"
+	438939648 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">438939648</TD>
+      </TR>
+      <TR>
+        <TD>12</TD>
+        <TD>7</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#F6DDCC"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	4478976 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">4478976</TD>
+      </TR>
+      <TR>
+        <TD>11</TD>
+        <TD>7</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#FAE5D3"]
+	438939648 -> 4478976
+	338688 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">338688</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#FDEBD0"]
+	4478976 -> 338688
+	27648 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">27648</TD>
+      </TR>
+      <TR>
+        <TD>10</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#FCF3CF"]
+	338688 -> 27648
+	2688 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2688</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	27648 -> 2688
+	768 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">768</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	2688 -> 768
+	336 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">336</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	768 -> 336
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	336 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	4444263936 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">4444263936</TD>
+      </TR>
+      <TR>
+        <TD>9</TD>
+        <TD>11</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	1492992 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">1492992</TD>
+      </TR>
+      <TR>
+        <TD>11</TD>
+        <TD>6</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	4444263936 -> 1492992
+	11664 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">11664</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>6</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	1492992 -> 11664
+	144 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">144</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	11664 -> 144
+	16 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">16</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	144 -> 16
+	16 -> "0_9"
+	4214784 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">4214784</TD>
+      </TR>
+      <TR>
+        <TD>12</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>3</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	7168 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">7168</TD>
+      </TR>
+      <TR>
+        <TD>10</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	4214784 -> 7168
+	336 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">336</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	7168 -> 336
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	336 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	98784 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">98784</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>3</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	16128 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">16128</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	98784 -> 16128
+	96 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">96</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	16128 -> 96
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	96 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	19421724672 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">19421724672</TD>
+      </TR>
+      <TR>
+        <TD>21</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>3</TD>
+      </TR>
+    </TABLE>> fillcolor="#FAE5D3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	338688 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">338688</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#FDEBD0"]
+	19421724672 -> 338688
+	27648 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">27648</TD>
+      </TR>
+      <TR>
+        <TD>10</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#FCF3CF"]
+	338688 -> 27648
+	2688 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2688</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	27648 -> 2688
+	768 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">768</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	2688 -> 768
+	336 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">336</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	768 -> 336
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	336 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	222264 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">222264</TD>
+      </TR>
+      <TR>
+        <TD>3</TD>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>3</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	384 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">384</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	222264 -> 384
+	96 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">96</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	384 -> 96
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	96 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	14224896 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">14224896</TD>
+      </TR>
+      <TR>
+        <TD>9</TD>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>3</TD>
+      </TR>
+    </TABLE>> fillcolor="#FDEBD0"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	27648 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">27648</TD>
+      </TR>
+      <TR>
+        <TD>10</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#FCF3CF"]
+	14224896 -> 27648
+	2688 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2688</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	27648 -> 2688
+	768 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">768</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	2688 -> 768
+	336 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">336</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	768 -> 336
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	336 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	333396 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">333396</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>5</TD>
+        <TD>0</TD>
+        <TD>3</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	4374 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">4374</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>7</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	333396 -> 4374
+	336 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">336</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	4374 -> 336
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	336 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	666792 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">666792</TD>
+      </TR>
+      <TR>
+        <TD>3</TD>
+        <TD>5</TD>
+        <TD>0</TD>
+        <TD>3</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	27216 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">27216</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>5</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	666792 -> 27216
+	168 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">168</TD>
+      </TR>
+      <TR>
+        <TD>3</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	27216 -> 168
+	48 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">48</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	168 -> 48
+	32 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">32</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	48 -> 32
+	32 -> "0_9"
+	147483721728 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">147483721728</TD>
+      </TR>
+      <TR>
+        <TD>16</TD>
+        <TD>8</TD>
+        <TD>0</TD>
+        <TD>3</TD>
+      </TR>
+    </TABLE>> fillcolor="#FCF3CF"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	4214784 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">4214784</TD>
+      </TR>
+      <TR>
+        <TD>12</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>3</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	147483721728 -> 4214784
+	7168 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">7168</TD>
+      </TR>
+      <TR>
+        <TD>10</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	4214784 -> 7168
+	336 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">336</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	7168 -> 336
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	336 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	279988627968 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">279988627968</TD>
+      </TR>
+      <TR>
+        <TD>9</TD>
+        <TD>13</TD>
+        <TD>0</TD>
+        <TD>3</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	2633637888 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2633637888</TD>
+      </TR>
+      <TR>
+        <TD>13</TD>
+        <TD>8</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	279988627968 -> 2633637888
+	6967296 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">6967296</TD>
+      </TR>
+      <TR>
+        <TD>12</TD>
+        <TD>5</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	2633637888 -> 6967296
+	244944 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">244944</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>7</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	6967296 -> 244944
+	4608 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">4608</TD>
+      </TR>
+      <TR>
+        <TD>9</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	244944 -> 4608
+	4608 -> "0_9"
+	4917248 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">4917248</TD>
+      </TR>
+      <TR>
+        <TD>11</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>4</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	16128 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">16128</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	4917248 -> 16128
+	96 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">96</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	16128 -> 96
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	96 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	3687936 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">3687936</TD>
+      </TR>
+      <TR>
+        <TD>9</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>4</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	163296 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">163296</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>6</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	3687936 -> 163296
+	1944 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">1944</TD>
+      </TR>
+      <TR>
+        <TD>3</TD>
+        <TD>5</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	163296 -> 1944
+	144 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">144</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	1944 -> 144
+	16 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">16</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	144 -> 16
+	16 -> "0_9"
+	11329339392 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">11329339392</TD>
+      </TR>
+      <TR>
+        <TD>19</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>4</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	236196 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">236196</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>10</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	11329339392 -> 236196
+	1944 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">1944</TD>
+      </TR>
+      <TR>
+        <TD>3</TD>
+        <TD>5</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	236196 -> 1944
+	144 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">144</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	1944 -> 144
+	16 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">16</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	144 -> 16
+	16 -> "0_9"
+	64827 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">64827</TD>
+      </TR>
+      <TR>
+        <TD>0</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>4</TD>
+      </TR>
+    </TABLE>> fillcolor="#FCF3CF"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	2688 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2688</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	64827 -> 2688
+	768 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">768</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	2688 -> 768
+	336 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">336</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	768 -> 336
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	336 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	1792336896 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">1792336896</TD>
+      </TR>
+      <TR>
+        <TD>10</TD>
+        <TD>6</TD>
+        <TD>0</TD>
+        <TD>4</TD>
+      </TR>
+    </TABLE>> fillcolor="#FCF3CF"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	2939328 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2939328</TD>
+      </TR>
+      <TR>
+        <TD>6</TD>
+        <TD>8</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	1792336896 -> 2939328
+	23328 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">23328</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>6</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	2939328 -> 23328
+	288 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">288</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	23328 -> 288
+	128 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">128</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	288 -> 128
+	16 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">16</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	128 -> 16
+	16 -> "0_9"
+	2322868617216 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2322868617216</TD>
+      </TR>
+      <TR>
+        <TD>14</TD>
+        <TD>10</TD>
+        <TD>0</TD>
+        <TD>4</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	4644864 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">4644864</TD>
+      </TR>
+      <TR>
+        <TD>13</TD>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	2322868617216 -> 4644864
+	73728 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">73728</TD>
+      </TR>
+      <TR>
+        <TD>13</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	4644864 -> 73728
+	2352 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2352</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	73728 -> 2352
+	60 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">60</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>1</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	2352 -> 60
+	60 -> "0_9"
+	19361664 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">19361664</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>5</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	23328 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">23328</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>6</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	19361664 -> 23328
+	288 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">288</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	23328 -> 288
+	128 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">128</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	288 -> 128
+	16 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">16</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	128 -> 16
+	16 -> "0_9"
+	784147392 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">784147392</TD>
+      </TR>
+      <TR>
+        <TD>6</TD>
+        <TD>6</TD>
+        <TD>0</TD>
+        <TD>5</TD>
+      </TR>
+    </TABLE>> fillcolor="#FAE5D3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	338688 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">338688</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#FDEBD0"]
+	784147392 -> 338688
+	27648 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">27648</TD>
+      </TR>
+      <TR>
+        <TD>10</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#FCF3CF"]
+	338688 -> 27648
+	2688 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2688</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	27648 -> 2688
+	768 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">768</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	2688 -> 768
+	336 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">336</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	768 -> 336
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	336 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	937638166841712 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">937638166841712</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>20</TD>
+        <TD>0</TD>
+        <TD>5</TD>
+      </TR>
+    </TABLE>> fillcolor="#E6B0AA"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	438939648 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">438939648</TD>
+      </TR>
+      <TR>
+        <TD>12</TD>
+        <TD>7</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#F6DDCC"]
+	937638166841712 -> 438939648
+	4478976 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">4478976</TD>
+      </TR>
+      <TR>
+        <TD>11</TD>
+        <TD>7</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#FAE5D3"]
+	438939648 -> 4478976
+	338688 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">338688</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#FDEBD0"]
+	4478976 -> 338688
+	27648 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">27648</TD>
+      </TR>
+      <TR>
+        <TD>10</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#FCF3CF"]
+	338688 -> 27648
+	2688 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2688</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	27648 -> 2688
+	768 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">768</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	2688 -> 768
+	336 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">336</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	768 -> 336
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	336 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	36381499733311488 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">36381499733311488</TD>
+      </TR>
+      <TR>
+        <TD>35</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>6</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	6772211712 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">6772211712</TD>
+      </TR>
+      <TR>
+        <TD>14</TD>
+        <TD>10</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	36381499733311488 -> 6772211712
+	16464 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">16464</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>3</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	6772211712 -> 16464
+	576 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">576</TD>
+      </TR>
+      <TR>
+        <TD>6</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	16464 -> 576
+	210 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">210</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>1</TD>
+        <TD>1</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	576 -> 210
+	210 -> "0_9"
+	38118276 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">38118276</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>6</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	16128 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">16128</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	38118276 -> 16128
+	96 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">96</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	16128 -> 96
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	96 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	4996238671872 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">4996238671872</TD>
+      </TR>
+      <TR>
+        <TD>19</TD>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>6</TD>
+      </TR>
+    </TABLE>> fillcolor="#E6B0AA"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	438939648 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">438939648</TD>
+      </TR>
+      <TR>
+        <TD>12</TD>
+        <TD>7</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#F6DDCC"]
+	4996238671872 -> 438939648
+	4478976 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">4478976</TD>
+      </TR>
+      <TR>
+        <TD>11</TD>
+        <TD>7</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#FAE5D3"]
+	438939648 -> 4478976
+	338688 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">338688</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#FDEBD0"]
+	4478976 -> 338688
+	27648 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">27648</TD>
+      </TR>
+      <TR>
+        <TD>10</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#FCF3CF"]
+	338688 -> 27648
+	2688 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2688</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	27648 -> 2688
+	768 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">768</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	2688 -> 768
+	336 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">336</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	768 -> 336
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	336 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	914838624 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">914838624</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>5</TD>
+        <TD>0</TD>
+        <TD>6</TD>
+      </TR>
+    </TABLE>> fillcolor="#FCF3CF"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	331776 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">331776</TD>
+      </TR>
+      <TR>
+        <TD>12</TD>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	914838624 -> 331776
+	2646 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2646</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	331776 -> 2646
+	288 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">288</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	2646 -> 288
+	128 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">128</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	288 -> 128
+	16 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">16</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	128 -> 16
+	16 -> "0_9"
+	1438916737499136 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">1438916737499136</TD>
+      </TR>
+      <TR>
+        <TD>24</TD>
+        <TD>6</TD>
+        <TD>0</TD>
+        <TD>6</TD>
+      </TR>
+    </TABLE>> fillcolor="#FCF3CF"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	4444263936 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">4444263936</TD>
+      </TR>
+      <TR>
+        <TD>9</TD>
+        <TD>11</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	1438916737499136 -> 4444263936
+	1492992 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">1492992</TD>
+      </TR>
+      <TR>
+        <TD>11</TD>
+        <TD>6</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	4444263936 -> 1492992
+	11664 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">11664</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>6</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	1492992 -> 11664
+	144 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">144</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	11664 -> 144
+	16 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">16</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	144 -> 16
+	16 -> "0_9"
+	3794886144 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">3794886144</TD>
+      </TR>
+      <TR>
+        <TD>9</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>7</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	4644864 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">4644864</TD>
+      </TR>
+      <TR>
+        <TD>13</TD>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	3794886144 -> 4644864
+	73728 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">73728</TD>
+      </TR>
+      <TR>
+        <TD>13</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	4644864 -> 73728
+	2352 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2352</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	73728 -> 2352
+	60 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">60</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>1</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	2352 -> 60
+	60 -> "0_9"
+	133413966 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">133413966</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>7</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	34992 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">34992</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>7</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	133413966 -> 34992
+	1944 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">1944</TD>
+      </TR>
+      <TR>
+        <TD>3</TD>
+        <TD>5</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	34992 -> 1944
+	144 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">144</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	1944 -> 144
+	16 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">16</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	144 -> 16
+	16 -> "0_9"
+	4668421498272 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">4668421498272</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>11</TD>
+        <TD>0</TD>
+        <TD>7</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	74317824 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">74317824</TD>
+      </TR>
+      <TR>
+        <TD>17</TD>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	4668421498272 -> 74317824
+	37632 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">37632</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	74317824 -> 37632
+	756 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">756</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	37632 -> 756
+	210 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">210</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>1</TD>
+        <TD>1</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	756 -> 210
+	210 -> "0_9"
+	184473632 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">184473632</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>8</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	96768 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">96768</TD>
+      </TR>
+      <TR>
+        <TD>9</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	184473632 -> 96768
+	18144 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">18144</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	96768 -> 18144
+	128 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">128</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	18144 -> 128
+	16 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">16</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	128 -> 16
+	16 -> "0_9"
+	368947264 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">368947264</TD>
+      </TR>
+      <TR>
+        <TD>6</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>8</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	1741824 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">1741824</TD>
+      </TR>
+      <TR>
+        <TD>10</TD>
+        <TD>5</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	368947264 -> 1741824
+	1792 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">1792</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	1741824 -> 1792
+	126 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">126</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	1792 -> 126
+	12 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">12</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	126 -> 12
+	12 -> "0_9"
+	23612624896 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">23612624896</TD>
+      </TR>
+      <TR>
+        <TD>12</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>8</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	1492992 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">1492992</TD>
+      </TR>
+      <TR>
+        <TD>11</TD>
+        <TD>6</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	23612624896 -> 1492992
+	11664 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">11664</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>6</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	1492992 -> 11664
+	144 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">144</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	11664 -> 144
+	16 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">16</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	144 -> 16
+	16 -> "0_9"
+	717233481216 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">717233481216</TD>
+      </TR>
+      <TR>
+        <TD>9</TD>
+        <TD>5</TD>
+        <TD>0</TD>
+        <TD>8</TD>
+      </TR>
+    </TABLE>> fillcolor="#FAE5D3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	338688 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">338688</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>2</TD>
+      </TR>
+    </TABLE>> fillcolor="#FDEBD0"]
+	717233481216 -> 338688
+	27648 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">27648</TD>
+      </TR>
+      <TR>
+        <TD>10</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#FCF3CF"]
+	338688 -> 27648
+	2688 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2688</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	27648 -> 2688
+	768 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">768</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	2688 -> 768
+	336 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">336</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	768 -> 336
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	336 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	134481277728 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">134481277728</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>6</TD>
+        <TD>0</TD>
+        <TD>8</TD>
+      </TR>
+    </TABLE>> fillcolor="#FCF3CF"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	4214784 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">4214784</TD>
+      </TR>
+      <TR>
+        <TD>12</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>3</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	134481277728 -> 4214784
+	7168 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">7168</TD>
+      </TR>
+      <TR>
+        <TD>10</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	4214784 -> 7168
+	336 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">336</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	7168 -> 336
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	336 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	161414428 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">161414428</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>9</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	6144 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">6144</TD>
+      </TR>
+      <TR>
+        <TD>11</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	161414428 -> 6144
+	96 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">96</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	6144 -> 96
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	96 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+	743797684224 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">743797684224</TD>
+      </TR>
+      <TR>
+        <TD>11</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>9</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	113799168 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">113799168</TD>
+      </TR>
+      <TR>
+        <TD>12</TD>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>3</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	743797684224 -> 113799168
+	81648 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">81648</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>6</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	113799168 -> 81648
+	1536 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">1536</TD>
+      </TR>
+      <TR>
+        <TD>9</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	81648 -> 1536
+	90 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">90</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>2</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	1536 -> 90
+	90 -> "0_9"
+	13884223438848 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">13884223438848</TD>
+      </TR>
+      <TR>
+        <TD>14</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>10</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	226492416 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">226492416</TD>
+      </TR>
+      <TR>
+        <TD>23</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	13884223438848 -> 226492416
+	41472 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">41472</TD>
+      </TR>
+      <TR>
+        <TD>9</TD>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	226492416 -> 41472
+	224 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">224</TD>
+      </TR>
+      <TR>
+        <TD>5</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	41472 -> 224
+	16 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">16</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	224 -> 16
+	16 -> "0_9"
+	249143169618 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">249143169618</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>12</TD>
+      </TR>
+    </TABLE>> fillcolor="#FAE5D3"]
+	"0_9" [label="SINGLE
+DIGIT" fillcolor=gainsboro shape=point]
+	2239488 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2239488</TD>
+      </TR>
+      <TR>
+        <TD>10</TD>
+        <TD>7</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#FDEBD0"]
+	249143169618 -> 2239488
+	27648 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">27648</TD>
+      </TR>
+      <TR>
+        <TD>10</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#FCF3CF"]
+	2239488 -> 27648
+	2688 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">2688</TD>
+      </TR>
+      <TR>
+        <TD>7</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#D5F5E3"]
+	27648 -> 2688
+	768 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">768</TD>
+      </TR>
+      <TR>
+        <TD>8</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#7DCEA0"]
+	2688 -> 768
+	336 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">336</TD>
+      </TR>
+      <TR>
+        <TD>4</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+      </TR>
+    </TABLE>> fillcolor="#A9CCE3"]
+	768 -> 336
+	54 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">54</TD>
+      </TR>
+      <TR>
+        <TD>1</TD>
+        <TD>3</TD>
+        <TD>0</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#D2B4DE"]
+	336 -> 54
+	20 [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+      <TR>
+        <TD COLSPAN="4">20</TD>
+      </TR>
+      <TR>
+        <TD>2</TD>
+        <TD>0</TD>
+        <TD>1</TD>
+        <TD>0</TD>
+      </TR>
+    </TABLE>> fillcolor="#F5B7B1"]
+	54 -> 20
+	20 -> "0_9"
+}
