@@ -12,6 +12,7 @@ from sympy.utilities.iterables import multiset_permutations
 pm = lambda n : reduce( int.__mul__ , map( int , list( str(n) ) ) )
 sift = lambda seed: list( i for i in candidates(seed) if lp7(i) )
 N237 = lambda TWO, THREE, SEVEN: 2 ** TWO * 3 ** THREE * 7 ** SEVEN
+N2357 = lambda TWO, THREE, FIVE, SEVEN: 2**TWO * 3**THREE * 5**FIVE * 7**SEVEN
 
 def streak(n):
     """Returns the list of numbers corresponding to the multiplicative persistence of the input number `n`.
@@ -28,7 +29,7 @@ def fast_streak(n):
     else:
         return []
 
-def search( TWO, THREE, SEVEN ):
+def search( TWO, THREE, SEVEN, action=None ):
     size = TWO * THREE * SEVEN
     count = 0
     for seven, three, two in product( range(SEVEN), range(THREE), range(TWO) ):
@@ -38,6 +39,7 @@ def search( TWO, THREE, SEVEN ):
         # if '0' not in str(n) :
         if '0' not in str(n) and len( fast_streak(n) ) > 7:
             print( '\r({}, {}, {}) = {}'.format( two, three, seven , n ) )
+            action(TWO,THREE,SEVEN)
 
 def explorer(seed):
     queue = [ str(seed) ]
@@ -72,7 +74,6 @@ def lp7ff(n):
         if n == 1:
             # print('In n==1: {i}, {n}'.format(i=i,n=n))
             return True
-    # return False
 
 def lp237(n):
     """True/false if the largest prime is at most 7. Requires fewer loops than lp7, bit-shifts to divide by 2 as much as possible"""
@@ -89,14 +90,6 @@ def lp237(n):
         else:
             n //= i
     return True
-    # For this use case, 5 will never be a prime factor (n never ends in a 0 or 5)    
-    # while True:
-    #     if n % i:
-    #         if   i == 3: i = 7
-    #         elif i == 7: return False
-    #     else:
-    #         if n < 11: return True
-    #         n //= i
 
 def lp27(n):
     """True/false if the largest prime is 7. Requires fewer loops than lp7, bit-shifts to divide by 2 as much as possible. Asserts that number input is not divisible by 3"""
@@ -263,6 +256,12 @@ def prime_powers237(n):
     assert not set(prime_factors(n)).difference({2,3,7}), "`prime_powers237()` only works if prime factors are limited to 2,3 and 7"
     factors = prime_factors(n)
     return factors.count(2), factors.count(3), factors.count(7)
+
+def prime_powers2357(n):
+    """Returns `TWO`, `THREE`, `FIVE`, `SEVEN` representation of `n` (2**`TWO` * 3**`THREE` * 5**`FIVE` * 7**`SEVEN`)"""
+    assert not set(prime_factors(n)).difference({2,3,5,7}), "`prime_powers237()` only works if prime factors are limited to 2,3 and 7"
+    factors = prime_factors(n)
+    return factors.count(2), factors.count(3), factors.count(5), factors.count(7)
 
 def find_prospectives( n, pad='', level=0 ):
     assert lp7(n), "Can't use find_prospectives() if largest prime > 7"
