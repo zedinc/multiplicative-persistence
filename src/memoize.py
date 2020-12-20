@@ -32,4 +32,5 @@ def create_table(conn, create_table_sql):
 
 
 if __name__ == '__main__':
-    create_connection(r"C:\sqlite\db\pythonsqlite.db")
+    conn = create_connection(r"C:\sqlite\db\pythonsqlite.db")
+    
