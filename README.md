@@ -4,7 +4,7 @@ Exploratory work inspired by [Numberphile video][1] on the topic.
 
 ---
 
-[Multiplicative Peristence Graph][graph]
+![Multiplicative Peristence Graph][graph]
 
 ---
 
