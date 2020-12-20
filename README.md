@@ -4,6 +4,10 @@ Exploratory work inspired by [Numberphile video][1] on the topic.
 
 ---
 
+[Multiplicative Peristence Graph][graph]
+
+---
+
 Some serious thought went into reducing the search effort as much as possible:
 
 1. Search space expressed in terms of three variables, `TWO`, `THREE` & `SEVEN` (since all numbers of interest can be expressed as `2**TWO * 3**THREE * 7**SEVEN`).
@@ -23,3 +27,4 @@ Some serious thought went into reducing the search effort as much as possible:
 2. Find a number whose digits multiply to give the larger numbers like `277777788888899`. This is where the `onesies` concept comes in; interspersing one or more `1` can yield a solution whose largest prime factor is `7`
 
   [1]: https://youtu.be/Wim9WJeDTHQ
+  [graph]: https://github.com/zedinc/multiplicative-persistence/blob/main/scripts/graph-generator/test.svg
